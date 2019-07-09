@@ -10,12 +10,13 @@ class App extends Component {
     this.state = {
       error: null,
       isLoaded: false,
+      starsFilter: 5,
       hotels: []
     };
   }
 
   componentDidMount() {
-    fetch("/api/hotels")
+    fetch("/api/hotels/stars/" + this.state.starsFilter)
       .then(res => res.json())
       .then(
         (result) => {
