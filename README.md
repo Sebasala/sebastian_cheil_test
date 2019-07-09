@@ -7,11 +7,11 @@ I used the react express starter pack by Brad Traversy as an starting point for 
 Brad Traversy
 [Traversy Media](http://www.traversymedia.com)
 
-So far the server have to end points, one to show first 9 hotels on the JSON file and one to filter hotels by stars.
+So far the server have 2 end points, one to show first 9 hotels on the JSON file and one to filter hotels by stars.
 
-The front end render the hotels with stars on state.starsFilter but dont have any control to let the user filter hotels yet.
+The front end render the hotels with stars on state.starsFilter but don't have any control to let the user filter hotels yet.
 
-Following youll find instructions on how to install and run the project.
+Following you'll find instructions on how to install and run the project.
 
 ## Quick Start
 
